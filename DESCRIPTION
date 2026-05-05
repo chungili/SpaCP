@@ -1,0 +1,31 @@
+Package: SpaCP
+Title: Conformal Prediction Intervals for Spatial Survival Outcomes
+Version: 0.1.0
+Authors@R: 
+    person("Chung-I", "Li", , "cili@ncku.edu.tw", role = c("aut", "cre"))
+Description: Implements conformal prediction intervals for spatial survival 
+    outcomes, providing valid coverage guarantees for spatially correlated 
+    survival data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+LinkingTo: Rcpp, RcppEigen
+Imports: 
+    Rcpp,
+    Matrix,
+    survival,
+    nleqslv,
+    doParallel,
+    foreach,
+    kernlab,
+    RcppEigen,
+    stats,
+    graphics,
+    utils,
+    parallel,
+    doSNOW,
+    snow
+Depends: 
+    R (>= 3.5)
+LazyData: true
