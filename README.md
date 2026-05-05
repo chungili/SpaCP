@@ -44,7 +44,7 @@ result <- Predict.Sp(
   train_dt = train.dt,
   test_dt  = test.dt,
   B        = 10,
-  alpha    = 0.05
+  alpha    = 0.1
 )
 
 # View results
